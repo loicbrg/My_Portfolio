@@ -2566,7 +2566,8 @@ ul {
 
 .logo{
   width: 120px;
-  border-radius: 50%;
+  border-radius: 45%;
+  border: 5px solid white;
 }
 
 
