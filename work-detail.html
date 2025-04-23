@@ -1,303 +1,430 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Work detail</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<!-- Fonts-->
-		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
-		<!-- Vendors-->
-		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
-		<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
-		<!-- App & fonts-->
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
-		<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css"><!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-	
-	<body>
-		<div class="page-wrap" id="root">
-			
-			<!-- header -->
-			<header class="header header--fixed">
-				<div class="header__inner">
-				  <div class="header__logo is-scroll">
-					<a href="index.html"
-					  ><img
-						src="assets/img/logo.png"
-						alt=""
-						class="logo"
-					/></a>
-				  </div>
-				  <div class="btns">
-					<button class="btn" id="darkTrigger">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 9c1.654 0 3 1.346 3 3s-1.346 3-3 3v-6zm0-2c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm-4.184-.599l-3.593-3.594-1.415 1.414 3.595 3.595c.401-.537.876-1.013 1.413-1.415zm4.184-1.401c.34 0 .672.033 1 .08v-5.08h-2v5.08c.328-.047.66-.08 1-.08zm5.598 2.815l3.595-3.595-1.414-1.414-3.595 3.595c.537.402 1.012.878 1.414 1.414zm-12.598 4.185c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm-9.784-1.414l-3.593 3.593 1.414 1.414 3.593-3.593c-.536-.402-1.011-.877-1.414-1.414zm12.519-5.184c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-6.92 8c-.34 0-.672-.033-1-.08v5.08h2v-5.08c-.328.047-.66.08-1 .08z" fill="currentColor"/></svg>
-					</button>
-					<div class="navbar-toggle" id="fs-button">
-					  <div class="navbar-icon"><span></span></div>
-					</div>
-				  </div>
-				</div>
-		
-				<!-- fullscreenmenu__module -->
-				<div class="fullscreenmenu__module" trigger="#fs-button">
-				  <!-- overlay-menu -->
-				  <nav class="overlay-menu">
-					<!--  -->
-					<ul class="wil-menu-list">
-					  <li class="current-menu-item">
-						<a href="index.html">Accueil</a>
-					  </li>
-					  <li><a href="about.html">À propos de moi</a></li>
-					  <li><a href="work-detail.html">Projets</a></li>
-					  <li><a href="experience.html">Experience</a></li>
-					  <li><a href="contact.html">Contact</a></li>
-					</ul>
-					<!--  -->
-				  </nav>
-				  <!-- End / overlay-menu -->
-				</div>
-				<!-- End / fullscreenmenu__module -->
-			  </header>
-			  <!-- End / header -->
-			
-			<!-- Content-->
-			<div class="wil-content">
-				
-				<!-- Section -->
-				<section class="awe-section">
-					<div class="container">
-						
-						<!-- page-title -->
-						<div class="page-title pb-40">
-							<h2 class="page-title__title">Tous mes projets</h2>
-							<p class="page-title__text"><a href="#Univ">Universitaire</a> et <a href="#Perso">personnel</a> </p>
-							<div class="page-title__divider"></div>
-						</div><!-- End / page-title -->
-						
-					</div>
-				</section>
-				<!-- End / Section -->
-				
-				
-				<!-- Section -->
-				<section class="awe-section bg-gray">
-					<div class="container">
-						
-						<!--  Projets Universitaire-->
-						<h2 class="work-detail__title2" id="Univ">Projets Universitaire</h2>
+<head>
+    <title>Work detail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Fonts-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
+    <!-- Vendors-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
+    <!-- App & fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
+    <link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/main.css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="page-wrap" id="root">
+        <!-- header -->
+        <header class="header header--fixed">
+            <div class="header__inner">
+                <div class="header__logo is-scroll">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="" class="logo" />
+                    </a>
+                </div>
+                <div class="btns">
+                    <button class="btn" id="darkTrigger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M12 9c1.654 0 3 1.346 3 3s-1.346 3-3 3v-6zm0-2c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm-4.184-.599l-3.593-3.594-1.415 1.414 3.595 3.595c.401-.537.876-1.013 1.413-1.415zm4.184-1.401c.34 0 .672.033 1 .08v-5.08h-2v5.08c.328-.047.66-.08 1-.08zm5.598 2.815l3.595-3.595-1.414-1.414-3.595 3.595c.537.402 1.012.878 1.414 1.414zm-12.598 4.185c0-.34.033-.672.08-1h-5.08v2h5.08c-.047-.328-.08-.66-.08-1zm11.185 5.598l3.594 3.593 1.415-1.414-3.594-3.593c-.403.536-.879 1.012-1.415 1.414zm-9.784-1.414l-3.593 3.593 1.414 1.414 3.593-3.593c-.536-.402-1.011-.877-1.414-1.414zm12.519-5.184c.047.328.08.66.08 1s-.033.672-.08 1h5.08v-2h-5.08zm-6.92 8c-.34 0-.672-.033-1-.08v5.08h2v-5.08c-.328.047-.66.08-1 .08z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <div class="navbar-toggle" id="fs-button">
+                        <div class="navbar-icon"><span></span></div>
+                    </div>
+                </div>
+            </div>
+            <!-- fullscreenmenu__module -->
+            <div class="fullscreenmenu__module" trigger="#fs-button">
+                <!-- overlay-menu -->
+                <nav class="overlay-menu">
+                    <!--  -->
+                    <ul class="wil-menu-list">
+                        <li class="current-menu-item">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li><a href="about.html">À propos de moi</a></li>
+                        <li><a href="work-detail.html">Projets</a></li>
+                        <li><a href="experience.html">Expérience</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <!--  -->
+                </nav>
+                <!-- End / overlay-menu -->
+            </div>
+            <!-- End / fullscreenmenu__module -->
+        </header>
+        <!-- End / header -->
 
-							<!-- Classeur de depeche -->
-							<div class="work-detail__entry" id="classeur_depeche_java">
-								<h3 class="work-detail__subtitle">Réalisation d'un classeur de dépêches (2022)</h3>
-								<p class="page-title__text">JAVA, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									En binôme, nous avons créé un classeur de dépêches catégorisé via un algorithme Java en 5 jours, avec compte-rendu anglais et présentation orale. Le projet visait à développer un lexique attribuant un poids aux mots selon leur fréquence et catégorie.</p>
-								<p class="work__paragraph">
-									Ensuite, un lecteur de dépêches calculait un score par catégorie, atteignant 75% de précision sur 500 dépêches. J'ai travaillé sur le calcul du score et l'optimisation du code, apprenant de nouvelles techniques d'optimisation.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/java/DEPECHES_SAE01.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/java/Lexique_sae01.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/java/Résultat_sae01.png" alt=""></div>
-								</div>
-					
-							</div><!--FIN / Classeur de depeche -->
+        <!-- Content-->
+        <div class="wil-content">
+            <!-- Section -->
+            <section class="awe-section">
+                <div class="container">
+                    <!-- page-title -->
+                    <div class="page-title pb-40">
+                        <h2 class="page-title__title">Tous mes projets</h2>
+                        <p class="page-title__text"><a href="#Univ">Universitaire</a> et <a href="#Perso">personnel</a></p>
+                        <div class="page-title__divider"></div>
+                    </div><!-- End / page-title -->
+                </div>
+            </section>
+            <!-- End / Section -->
 
-							<!-- BDD titanic -->
-							<div class="work-detail__entry" id="bdd_titanic_sql">
-								<h3 class="work-detail__subtitle">Base de données sur le naufrage du Titanic (2022)</h3>
-								<p class="page-title__text">SQL, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-									</p>
-								<p class="work__paragraph">
-									En binôme pendant deux semaines, nous avons créé une base de données SQL sur le Titanic et un rapport d'analyse. Après conception avec SLR et SEA, nous avons créé des tables telles que Personnes, Canots de sauvetage et Domestique</p>
-								<p class="work__paragraph">
-									J'ai géré la table réflexive (Personne) et les requêtes SQL. J'ai acquis des compétences en création de BDD et analyse des résultats. Ce projet m'a montré l'importance de la conception et qualité des données pour des requêtes efficaces et des conclusions pertinentes.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/sql/SEA_SAE04.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/SEA_EXPLICATION_SAE04.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/sql_code_sae04.png" alt=""></div>
-								</div><br>
-								<a href="assets/img/sql/etape3_bergeryl.pdf" download="Compte_rendu_Titanic">Télécharger içi le compte rendu</a>
-							</div><!-- FIN / BDD titanic -->
+            <!-- Section -->
+            <section class="awe-section bg-gray">
+                <div class="container">
+                    <!--  Projets Universitaires-->
+                    <h2 class="work-detail__title2" id="Univ">Projets Universitaires</h2>
 
-							
-							<!-- Site web institutionnel d'IBM -->
-							<div class="work-detail__entry" id="Site_IBM_HTML">
-								<h3 class="work-detail__subtitle">Site web institutionnel d'IBM pour la gen alpha (2022)</h3>
-								<p class="page-title__text">HTML / CSS, 3 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									Pour ce projet, nous avons créé un site web institutionnel pour IBM, ciblant la génération alpha en trinôme. La première phase consistait à réaliser un recueil des besoins en deux semaines. Ensuite, nous avons conçu le site en 4 semaines avec HTML et CSS, en partant d'un wireframe.</p>
-								<p class="work__paragraph">
-									J'ai étudié l'organisation d'IBM, ses concurrents et clients, et adapté le site pour mobiles en concevant une maquette et une page d'accueil pour petits écrans. J'ai amélioré mes compétences en recherche, vulgarisation, organisation de code et en HTML/CSS.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/ibm/Accueil2_IBM_SAE.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/ibm/Wireframe IBM - Board.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/ibm/contexte_IBM_SAE.png" alt=""></div>
-								</div>
-							</div><!--FIN / Site web instit. IBM  -->
+                    <!-- Hôpital IUT2 -->
+                    <div class="work-detail__entry" id="HopitalIUT2">
+                        <h3 class="work-detail__subtitle">Hôpital IUT2, Conception et Réalisation d'une Architecture Réseau d'un Hôpital (2024)</h3>
+                        <p class="page-title__text">Réseaux, 4 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            En équipe de quatre personnes, nous avons conçu et mis en place une architecture réseau pour "l'Hôpital IUT2". Ce projet ambitieux comprenait l'installation et la configuration de divers équipements de réseau virtuel, tels que des DNS internes et externes, Nagios, VLANs, DMZ et bastion SSH, ainsi que la mise en place de pare-feux et l'implémentation de services tels que LDAP, Kerberos, NFS et un serveur web.
+                        </p>
+                        <p class="work__paragraph">
+                            Dans ce cadre, j'ai contribué à plusieurs aspects du projet. J'ai notamment participé à la création d'un site web externe pour l'hôpital, ainsi qu'à la mise en place d'un wiki interne (avec BookStack) dédié à la documentation technique. De plus, j'ai pris en charge la configuration de la partie DNS (avec DoT, DoH et DNSSEC) et d'une partie du service LDAP, tout en contribuant à la mise en place des pare-feux et de la DMZ. Cette expérience m'a permis de développer mes compétences en architecture réseau et en administration système.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/Hopital IUT2/archi.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/Hopital IUT2/asclepedia1.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/Hopital IUT2/asclepedia2.png" alt=""></div>
+                        </div>
+                        <a href="http://77.129.53.78:7089">Accéder au site du wiki de notre projet ici (utilisateur: professeur@iut2.com, mot de passe: professeur)</a>
+                    </div>
+                    <!-- FIN / Hôpital IUT2  -->
+                    <!-- Enigmathique -->
+                    <div class="work-detail__entry" id="Enigmathique">
+                        <h3 class="work-detail__subtitle">Enigmathique, 1er prix du meilleur prototype (2024)</h3>
+                        <p class="page-title__text">UML / React / ExpressJs / BASH / Réseau / PostgreSQL, 8 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            En équipe de huit personnes, nous avons créé un jeu ludo-éducatif appelé Enigmathique. Ce jeu, conçu comme un escape game en mathématiques destiné aux élèves de classe de seconde, était le fruit d'un processus complet allant de l'analyse de l'existant à la conception, en passant par la création, le développement et le design.
+                        </p>
+                        <p class="work__paragraph">
+                            Notre équipe a travaillé de manière intensive pendant trois semaines pour donner vie à Enigmathique. Nous avons opté pour une architecture technologique moderne en utilisant React pour le frontend, ExpressJs pour le backend, et Three.js pour la création des salles en 3D. De plus, nous avons utilisé Blender pour la modélisation des salles en 3D et avons mis en place nos propres serveurs avec une base de données dédiée.
+                        </p>
+                        <p class="work__paragraph">
+                            Dans ce projet, j'ai pris en charge la création de plusieurs fonctionnalités clés, notamment la mise en place d'une page de classement en direct des équipes, utilisant des websockets pour assurer une mise à jour en temps réel. J'ai également été responsable du tableau de bord du jeu. De plus, j'ai supervisé le déploiement du site sur mon propre Raspberry Pi, ce qui a nécessité la mise en place d'un reverse proxy en raison de la complexité de l'architecture avec des parties backend, frontend et jeu distinctes, toutes basées sur Node.js. Cette expérience a été enrichissante et m'a permis de perfectionner mes compétences en développement web et en gestion de serveurs.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/Enigmathique/tableaubord.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/Enigmathique/validationequipe.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/Enigmathique/jeuxlaboratoire.png" alt=""></div>
+                        </div>
+                        <a href="https://77.129.53.78">Accéder au site Enigmathique ici</a>
+                    </div>
+                    <!-- FIN / Enigmathique  -->
 
-							<!-- Installation debian (post pour le dev) -->
-							<div class="work-detail__entry" id="debian_instal_BASH">
-								<h3 class="work-detail__subtitle">Installation d’un poste de développement (2022)</h3>
-								<p class="page-title__text">BASH / LINUX, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="User / User_02"> <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									Durant ce projet, en 1 semaine, j'ai réalisé un plan d'installation d'un poste de travail de développement sous Linux Debian 11 sur une machine virtuelle, en utilisant une carte mentale. J'ai rassemblé les informations, créé la carte mentale, installé l'OS et des outils de développement comme IntelliJ IDEA avec un gestionnaire de package.</p>
-								<p class="work__paragraph">
-									J'ai documenté le processus par des captures d'écran. J'ai appris sur Debian, l'installation de packages et l'installation d'un OS sur une machine virtuelle.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/debian/debian-install.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/debian/screen1.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/debian/Loic-Bergery-C2-CarteMentale.pdf" alt=""></div>
-								</div><br>
-								<a href="assets/img/debian/Loïc-Bergery-C2- CarteMentale.pdf" download="Carte_mentale_Debian_installation">Télécharger içi la carte mentale</a>
-							</div><!--FIN / Installation debian -->
+                    <!-- Game Jam -->
+                    <div class="work-detail__entry" id="OdysseySavoir">
+                        <h3 class="work-detail__subtitle">L'odyssée du savoir, Vainqueurs Game Jam (2024)</h3>
+                        <p class="page-title__text">Python (Pygame et PyTMX), 4 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            Durant une Game Jam de quatre jours, notre équipe de quatre personnes s'est concentrée sur la création d'un jeu en Python avec Pygame et PyTMX, sur le thème imposé "Le monde merveilleux de l'IUT2". Nous avons développé un jeu où le joueur doit affronter des boss représentant nos professeurs pour accumuler des connaissances et progresser dans l'IUT2. À la fin de la compétition, nous avons remporté la Game Jam.
+                        </p>
+                        <p class="work__paragraph">
+                            Personnellement, j'ai développé le boss des mathématiques et contribué au design du jeu, ainsi qu'à une partie de la carte. Cette expérience combinait créativité, collaboration et programmation pour aboutir à un jeu divertissant et plein d'humour, avec nos professeurs dessinés en pixel art et leurs répliques.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/gameJam/hub.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/gameJam/couloir.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/gameJam/jp.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- FIN / Game Jam  -->
 
-							<!-- BDD Accident -->
-							<div class="work-detail__entry" id="BDD_Accident">
-								<h3 class="work-detail__subtitle">Tri, Extraction et analyse des données de la BDD
-									des accidents de la route en France (2023)</h3>
-								<p class="page-title__text">SQL / R, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-									</p>
-								<p class="work__paragraph">
-									Durant deux semaines, en binôme, nous avons réorganisé une base de données SQL sur les accidents routiers en France, ciblant spécifiquement les incidents impliquant des individus de plus de 60 ans en région PACA. Nous avons structuré les données requises dans des tables temporaires et des vues, puis nous avons produit et analysé des graphiques en R, avec un rapport rédigé en anglais.</p>
-								<p class="work__paragraph">
-									Personnellement, j'ai géré le tri des données, créé des tables temporaires et des vues, intégré des fonctions pour éviter des problèmes lors de l'ajout de données. De plus, j'ai produit des graphiques en R à partir des données filtrées, et réalisé l'analyse de plusieurs d'entre eux.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR1.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR2.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_code.png" alt=""></div>
-								</div><br>
-								<a href="assets/img/sql/SAE2.04CR.pdf" download="Compte_rendu_AccidentRoutePACA">Télécharger içi le compte rendu</a>
-							</div><!-- FIN / BDD Accident -->
+                    <!-- Projet de développement d'une application Java de gestion de tournois de tennis -->
+                    <div class="work-detail__entry" id="gestionTournoisTennis">
+                        <h3 class="work-detail__subtitle">10is Tournament, Application Lourde en Java de Gestion de Tournois de Tennis (2023)</h3>
+                        <p class="page-title__text">JAVA / UML / Gestion de projet</p>
+                        <p class="work__paragraph">
+                            Notre équipe de six personnes a collaboré sur le développement d'une application Java dédiée à la gestion de tournois de tennis. Nous avons débuté par l'élaboration d'un diagramme de classes détaillé pour structurer les objets de l'application et définir leurs interactions. En parallèle, nous avons créé un diagramme de cas d'utilisation pour décrire les interactions utilisateur-système et un diagramme de séquence pour visualiser les échanges d'informations dans le temps. Ces étapes de conception ont été cruciales pour guider efficacement notre travail de développement ultérieur.
+                        </p>
+                        <p class="work__paragraph">
+                            Plus spécifiquement, j'ai assumé la responsabilité de concevoir et de mettre en œuvre plusieurs fonctionnalités clés de l'application, notamment la gestion de la création, la modification et l'ajout de joueurs, de terrains et d'arbitres. En tant que membre de l'équipe, j'ai également contribué à la réalisation du diagramme de classes, assurant ainsi la cohérence de la structure de notre application.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/10isTournament/accueil.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/10isTournament/tournoi1.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/10isTournament/arborescence.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- FIN / Gestion Tournois Tennis -->
 
-							<!-- Serveur Debian -->
-							<div class="work-detail__entry" id="serveurDebian">
-								<h3 class="work-detail__subtitle">Installation d'un serveur debian avec apache, posgreSQL et PHP (2023) </h3>
-								<p class="page-title__text">BASH / LINUX, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="User / User_02"> <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
-									</p>
-								<p class="work__paragraph">
-									En solo, j'ai mené à bien l'installation et la configuration d'un serveur Debian, intégrant des technologies essentielles telles que PostgreSQL pour la gestion de bases de données, PHP pour la logique côté serveur et Apache pour le service HTTP. Ce processus m'a permis de renforcer mes compétences en administration de systèmes, de bases de données et de développement côté serveur.</p>
-								<p class="work__paragraph">
-									Suite à la mise en place du serveur, j'ai également été chargé de la création d'un guide d'installation en anglais, détaillant chaque étape du processus. Cet exercice a non seulement renforcé ma maîtrise technique, mais m'a également permis de développer mes compétences en communication technique en anglais.</p><br>
-								<div class="work__container-img">
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR1.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR2.png" alt=""></div>
-									<div><img class="imgGrow" src="assets/img/sql/BDD_Accident_code.png" alt=""></div>
-								</div><br>
-								<a href="assets/img/sql/SAE2.04CR.pdf" download="Compte_rendu_AccidentRoutePACA">Télécharger içi le compte rendu</a>
-							</div><!-- FIN / BDD titanic -->
+                    <!-- Serveur Debian -->
+                    <div class="work-detail__entry" id="serveurDebian">
+                        <h3 class="work-detail__subtitle">Installation d'un serveur Debian avec Apache, PostgreSQL et PHP (2023)</h3>
+                        <p class="page-title__text">BASH / LINUX, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="User / User_02">
+                                        <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            En solo, j'ai mené à bien l'installation et la configuration d'un serveur Debian, intégrant des technologies essentielles telles que PostgreSQL pour la gestion de bases de données, PHP pour la logique côté serveur et Apache pour le service HTTP. Ce processus m'a permis de renforcer mes compétences en administration de systèmes, de bases de données et de développement côté serveur.
+                        </p>
+                        <p class="work__paragraph">
+                            Suite à la mise en place du serveur, j'ai également été chargé de la création d'un guide d'installation en anglais, détaillant chaque étape du processus. Cet exercice a non seulement renforcé ma maîtrise technique, mais m'a également permis de développer mes compétences en communication technique en anglais.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/serveurDebian/download.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/serveurDebian/images.jpeg" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/serveurDebian/Unknown.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- FIN / Serveur Debian -->
 
-							<!-- Logiciel de hash -->
-							<div class="work-detail__entry" id="gestionnaireTennis">
-								<h3 class="work-detail__subtitle">Application de gestion de tournoi de tennis (2023)</h3>
-								<p class="page-title__text">JAVA, 6 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									Actuellement, je travaille en équipe de six sur le développement d'une application Java de gestion de tournois de tennis. Jusqu'à présent, nous avons mis en place une base solide en créant le diagramme de classes, définissant ainsi la structure et les relations des objets dans notre application. Nous avons également réalisé le diagramme de cas d'utilisation pour illustrer les interactions possibles entre les utilisateurs (acteurs) et notre système, ainsi que le diagramme de séquence pour visualiser les échanges d'informations entre les objets dans le temps.</p>
-								<p class="work__paragraph">
-									La prochaine étape consistera à mettre en œuvre ces modèles en Java, transformant notre conception en une application fonctionnelle. En parallèle, nous préparerons un compte rendu détaillé pour documenter notre processus et nos progrès. Ce projet m'offre l'opportunité d'affiner mes compétences en conception logicielle, en programmation Java et en travail d'équipe, tout en gagnant une précieuse expérience de gestion de projet.</p><br>
-								<p>(En développement)</p>
-							</div><!--FIN / Logiciel de hash -->
+                    <!-- BDD Accident -->
+                    <div class="work-detail__entry" id="BDD_Accident">
+                        <h3 class="work-detail__subtitle">Tri, Extraction et Analyse des Données de la BDD des Accidents de la Route en France (2023)</h3>
+                        <p class="page-title__text">SQL / R, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            Durant deux semaines, en binôme, nous avons réorganisé une base de données SQL sur les accidents routiers en France, ciblant spécifiquement les incidents impliquant des individus de plus de 60 ans en région PACA. Nous avons structuré les données requises dans des tables temporaires et des vues, puis produit et analysé des graphiques en R, avec un rapport rédigé en anglais.
+                        </p>
+                        <p class="work__paragraph">
+                            Personnellement, j'ai géré le tri des données, créé des tables temporaires et des vues, intégré des fonctions pour éviter des problèmes lors de l'ajout de données. De plus, j'ai produit des graphiques en R à partir des données filtrées, et réalisé l'analyse de plusieurs d'entre eux.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR1.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/sql/BDD_Accident_CR2.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/sql/BDD_Accident_code.png" alt=""></div>
+                        </div>
+                        <a href="assets/img/sql/SAE2.04CR.pdf" download="Compte_rendu_AccidentRoutePACA">Télécharger ici le compte rendu</a>
+                    </div>
+                    <!-- FIN / BDD Accident -->
 
-						</div><!-- End /  -->
-						
-					</div>
-				</section>
-				<!-- End / Section -->
+                    <!-- Site web institutionnel d'IBM -->
+                    <div class="work-detail__entry" id="Site_IBM_HTML">
+                        <h3 class="work-detail__subtitle">Site web institutionnel d'IBM pour la génération alpha (2022)</h3>
+                        <p class="page-title__text">HTML / CSS, 3 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            Pour ce projet, nous avons créé un site web institutionnel pour IBM, ciblant la génération alpha en trinôme. La première phase consistait à réaliser un recueil des besoins en deux semaines. Ensuite, nous avons conçu le site en 4 semaines avec HTML et CSS, en partant d'un wireframe.
+                        </p>
+                        <p class="work__paragraph">
+                            J'ai étudié l'organisation d'IBM, ses concurrents et clients, et adapté le site pour mobiles en concevant une maquette et une page d'accueil pour petits écrans. J'ai amélioré mes compétences en recherche, vulgarisation, organisation de code et en HTML/CSS.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/ibm/Accueil2_IBM_SAE.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/ibm/Wireframe IBM - Board.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/ibm/contexte_IBM_SAE.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- FIN / Site web institutionnel IBM  -->
 
-				<section class="awe-section bg-gray">
-					<div class="container">
-						
-						<!--  Projets Personnel-->
-						<h2 class="work-detail__title2" id="Perso">Projets Personnel</h2>
+                    <!-- Base de données Titanic -->
+                    <div class="work-detail__entry" id="bdd_titanic_sql">
+                        <h3 class="work-detail__subtitle">Base de données sur le naufrage du Titanic (2022)</h3>
+                        <p class="page-title__text">SQL, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            En binôme pendant deux semaines, nous avons créé une base de données SQL sur le Titanic et un rapport d'analyse. Après conception avec SLR et SEA, nous avons créé des tables telles que Personnes, Canots de sauvetage et Domestiques.
+                        </p>
+                        <p class="work__paragraph">
+                            J'ai géré la table réflexive (Personne) et les requêtes SQL. J'ai acquis des compétences en création de BDD et analyse des résultats. Ce projet m'a montré l'importance de la conception et de la qualité des données pour des requêtes efficaces et des conclusions pertinentes.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/sql/SEA_SAE04.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/sql/SEA_EXPLICATION_SAE04.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/sql/sql_code_sae04.png" alt=""></div>
+                        </div>
+                        <a href="assets/img/sql/etape3_bergeryl.pdf" download="Compte_rendu_Titanic">Télécharger ici le compte rendu</a>
+                    </div>
+                    <!-- FIN / BDD Titanic -->
 
-							<!-- Geometry dash -->
-							<div class="work-detail__entry" id="GeometryDash">
-								<h3 class="work-detail__subtitle">Geometry dash (2023)</h3>
-								<p class="page-title__text">JAVA, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="User / User_02"> <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									Actuellement, je travaille en solo sur le développement d'un jeu inspiré de Geometry Dash en Java. Ce projet implique la conception du gameplay, la création d'obstacles et la gestion des interactions utilisateur. Face à une variété de défis techniques, je maintiens un équilibre entre complexité du code et jouabilité du jeu.</p>
-								<p class="work__paragraph">
-									Mon ambition ultime est de développer une intelligence artificielle capable d'apprendre à jouer à ce jeu. Ceci va présenter une nouvelle série de défis et d'opportunités pour améliorer mes compétences en IA et en apprentissage automatique.</p><br>
-								<p>(En développement)</p>
-							</div><!--FIN / Geometry dash -->
+                    <!-- Classeur de dépêches -->
+                    <div class="work-detail__entry" id="classeur_depeche_java">
+                        <h3 class="work-detail__subtitle">Réalisation d'un classeur de dépêches (2022)</h3>
+                        <p class="page-title__text">JAVA, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>users</title>
+                                    <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            En binôme, nous avons créé un classeur de dépêches catégorisé via un algorithme Java en 5 jours, avec compte-rendu anglais et présentation orale. Le projet visait à développer un lexique attribuant un poids aux mots selon leur fréquence et catégorie.
+                        </p>
+                        <p class="work__paragraph">
+                            Ensuite, un lecteur de dépêches calculait un score par catégorie, atteignant 75% de précision sur 500 dépêches. J'ai travaillé sur le calcul du score et l'optimisation du code, apprenant de nouvelles techniques d'optimisation.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/java/DEPECHES_SAE01.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/java/Lexique_sae01.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/java/Résultat_sae01.png" alt=""></div>
+                        </div>
+                    </div>
+                    <!-- FIN / Classeur de dépêches -->
 
-							<!-- Logiciel de hash -->
-							<div class="work-detail__entry" id="Hash">
-								<h3 class="work-detail__subtitle">Logiciel de hachage de type sha-256 (2023)</h3>
-								<p class="page-title__text">PYTHON, 2 <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>users</title> <path d="M16 21.416c-5.035 0.022-9.243 3.537-10.326 8.247l-0.014 0.072c-0.018 0.080-0.029 0.172-0.029 0.266 0 0.69 0.56 1.25 1.25 1.25 0.596 0 1.095-0.418 1.22-0.976l0.002-0.008c0.825-3.658 4.047-6.35 7.897-6.35s7.073 2.692 7.887 6.297l0.010 0.054c0.127 0.566 0.625 0.982 1.221 0.982 0.69 0 1.25-0.559 1.25-1.25 0-0.095-0.011-0.187-0.031-0.276l0.002 0.008c-1.098-4.78-5.305-8.295-10.337-8.316h-0.002zM9.164 11.102c0 0 0 0 0 0 2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM9.164 3.25c0 0 0 0 0 0 1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM22.926 11.102c2.858 0 5.176-2.317 5.176-5.176s-2.317-5.176-5.176-5.176c-2.858 0-5.176 2.317-5.176 5.176v0c0.004 2.857 2.319 5.172 5.175 5.176h0zM22.926 3.25c1.478 0 2.676 1.198 2.676 2.676s-1.198 2.676-2.676 2.676c-1.478 0-2.676-1.198-2.676-2.676v0c0.002-1.477 1.199-2.674 2.676-2.676h0zM31.311 19.734c-0.864-4.111-4.46-7.154-8.767-7.154-0.395 0-0.784 0.026-1.165 0.075l0.045-0.005c-0.93-2.116-3.007-3.568-5.424-3.568-2.414 0-4.49 1.448-5.407 3.524l-0.015 0.038c-0.266-0.034-0.58-0.057-0.898-0.063l-0.009-0c-4.33 0.019-7.948 3.041-8.881 7.090l-0.012 0.062c-0.018 0.080-0.029 0.173-0.029 0.268 0 0.691 0.56 1.251 1.251 1.251 0.596 0 1.094-0.417 1.22-0.975l0.002-0.008c0.684-2.981 3.309-5.174 6.448-5.186h0.001c0.144 0 0.282 0.020 0.423 0.029 0.056 3.218 2.679 5.805 5.905 5.805 3.224 0 5.845-2.584 5.905-5.794l0-0.006c0.171-0.013 0.339-0.035 0.514-0.035 3.14 0.012 5.765 2.204 6.442 5.14l0.009 0.045c0.126 0.567 0.625 0.984 1.221 0.984 0.69 0 1.249-0.559 1.249-1.249 0-0.094-0.010-0.186-0.030-0.274l0.002 0.008zM16 18.416c-0 0-0 0-0.001 0-1.887 0-3.417-1.53-3.417-3.417s1.53-3.417 3.417-3.417c1.887 0 3.417 1.53 3.417 3.417 0 0 0 0 0 0.001v-0c-0.003 1.886-1.53 3.413-3.416 3.416h-0z"></path> </g></svg>
-								</p>
-								<p class="work__paragraph">
-									Actuellement en binôme, nous développons un logiciel de hachage similaire à SHA-256. Après avoir identifié les différentes fonctions mathématiques requises, nous avons implémenté une partie de ces fonctions. </p>
-								<p class="work__paragraph">
-									Notre objectif est de créer une interface utilisateur simple où l'on peut déposer un fichier, qui est ensuite haché par notre logiciel local, produisant ainsi le fichier haché. Le développement de ce logiciel est toujours en cours, reflétant notre engagement à fournir un outil de hachage fiable et facile à utiliser.</p><br>
-								<p>(En développement)</p>
-							</div><!--FIN / Logiciel de hash -->
+                    <!-- Installation Debian (poste de développement) -->
+                    <div class="work-detail__entry" id="debian_instal_BASH">
+                        <h3 class="work-detail__subtitle">Installation d’un poste de développement (2022)</h3>
+                        <p class="page-title__text">BASH / LINUX, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="User / User_02">
+                                        <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </p>
+                        <p class="work__paragraph">
+                            Durant ce projet, en une semaine, j'ai réalisé un plan d'installation d'un poste de travail de développement sous Linux Debian 11 sur une machine virtuelle, en utilisant une carte mentale. J'ai rassemblé les informations, créé la carte mentale, installé l'OS et des outils de développement comme IntelliJ IDEA avec un gestionnaire de packages.
+                        </p>
+                        <p class="work__paragraph">
+                            J'ai documenté le processus par des captures d'écran. J'ai appris sur Debian, l'installation de packages et l'installation d'un OS sur une machine virtuelle.
+                        </p>
+                        <div class="work__container-img">
+                            <div><img class="imgGrow" src="assets/img/debian/debian-install.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/debian/screen1.png" alt=""></div>
+                            <div><img class="imgGrow" src="assets/img/debian/Loïc-Bergery-C2- CarteMentale.pdf" alt=""></div>
+                        </div>
+                        <a href="assets/img/debian/Loïc-Bergery-C2- CarteMentale.pdf" download="Carte_mentale_Debian_installation">Télécharger ici la carte mentale</a>
+                    </div>
+                    <!-- FIN / Installation Debian -->
 
-						
-						</div><!-- End /  -->
-						
-						<div class="awe-text-center mt-50">
-							<a class="md-btn md-btn--outline-primary " href="#">Tous les projets
-							</a>
-						</div>
-					</div>
-				</section>
-				<!-- End / Section -->
-				
-			</div>
-			<!-- End / Content-->
-			
-			
-			<!-- footer -->
-			<div class="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-6 ">
-							<p class="footer__coppy">2023 - Bergery Loïc</p>
-						</div>
-						<div class="col-md-6 col-lg-6 ">
-							<div class="footer__social">
-								
-								<!-- social-icon -->
-								<a class="social-icon" href=""><i class="social-icon__icon fa fa-facebook"></i>
-								</a><!-- End / social-icon -->
-								
-								
-								<!-- social-icon -->
-								<a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i>
-								</a><!-- End / social-icon -->
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!-- End / footer -->
-			
-		</div>
-		<!-- Vendors-->
-		<script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
-		<script type="text/javascript" src="assets/vendors/menu/menu.js"></script>
-		<script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
-		<!-- App-->
-		<script type="text/javascript" src="assets/js/main.js"></script>
-	</body>
+                </div>
+            </div>
+        </section>
+        <!-- End / Section -->
+
+        <section class="awe-section bg-gray">
+            <div class="container">
+
+                <!--  Projets Personnel-->
+                <h2 class="work-detail__title2" id="Perso">Projets Personnel</h2>
+
+                <!-- Cloud -->
+                <div class="work-detail__entry" id="GeometryDash">
+                    <h3 class="work-detail__subtitle">Cloud sur Raspberry Pi 5 (2024)</h3>
+                    <p class="page-title__text">Réseaux / Raspberry Pi, 1 <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g id="User / User_02">
+                                    <path id="Vector" d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                    </p>
+                    <p class="work__paragraph">
+                        Dans le cadre de mon projet actuel, je travaille en solitaire sur la mise en place de mon propre cloud, hébergé sur un Raspberry Pi 5. Ce projet s'inscrit dans la lignée de mes réalisations précédentes telles que ce portfolio, le site Enigmathique ou encore le wiki du projet de l'Hôpital IUT2. Mon objectif est de créer un environnement sécurisé avec une authentification fiable, offrant la possibilité d'uploader et de stocker mes propres images, musiques ou vidéos, ainsi que de créer des albums pour une gestion organisée du contenu.
+                    </p>
+                    <p>Ce projet est actuellement en cours de développement.</p>
+                </div>
+                <!--FIN / Cloud  -->
+
+            </div>
+        </section>
+        <!-- End / Section -->
+
+    </div>
+    <!-- End / Content-->
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 ">
+                    <p class="footer__coppy">2023 - Bergery Loïc</p>
+                </div>
+                <div class="col-md-6 col-lg-6 ">
+                    <div class="footer__social">
+
+                        <!-- social-icon -->
+                        <a class="social-icon" href=""><i class="social-icon__icon fa fa-facebook"></i>
+                        </a><!-- End / social-icon -->
+
+
+                        <!-- social-icon -->
+                        <a class="social-icon" href="http://linkedin.com/in/loïc-bergery-en-recherche-d’alternance-1a0974261"><i class="social-icon__icon fa fa-linkedin"></i>
+                        </a><!-- End / social-icon -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End / footer -->
+
+    </div>
+    <!-- Vendors-->
+    <script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
+    <script type="text/javascript" src="assets/vendors/menu/menu.js"></script>
+    <script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
+    <!-- App-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
 </html>
+

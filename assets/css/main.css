@@ -825,6 +825,82 @@ ul {
 .about__text p {
   margin-bottom: 20px;
 }
+.photo-gallery .photo-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.photo-gallery .photo-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.photo-gallery .photo-item:hover img {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.photo-gallery .photo-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+}
+
+.photo-gallery .photo-item:hover .photo-caption {
+    display: block;
+}
+
+
+.skills-category__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.skill {
+    margin: 10px;
+    position: relative;
+}
+
+.skill img {
+    transition: transform 0.3s;
+}
+
+.skill img:hover {
+    transform: scale(1.1);
+}
+
+.skill:hover::after {
+    content: attr(data-skill);
+    display: block;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.skills-category {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 
 /* 6. contact
 --------------------------------------------------------------------------------*/
@@ -2566,8 +2642,7 @@ ul {
 
 .logo{
   width: 120px;
-  border-radius: 45%;
-  border: 5px solid white;
+  border-radius: 50%;
 }
 
 
@@ -3022,13 +3097,8 @@ ul {
 
 /* 28. Experience
 --------------------------------------------------------------------------------*/
-.experience{
-  
+.experience {
   height: 190vh;
-}
-
-.experience:not(:first-of-type) .experience_title .container_tl .ul_lt{
-  background-color: yellowgreen;
 }
 
 .experience_title {
@@ -3040,61 +3110,58 @@ ul {
   margin-bottom: 10px;
 }
 
-
-
-
-/*  29. Time_line
+/* 29. Time_line
 --------------------------------------------------------------------------------*/
+
+.container_tl{
+  margin-left: 40%;
+}
 
 .experience .container_tl .ul_lt {
   list-style: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1px 100px;
+  position: relative;
+  padding: 1px 0;
   color: #000000;
   font-size: 13px;
-  
 }
 
-.experience .container_tl:not(:first-of-type){
-  margin-top: -1000px;
-}
-
-/* pointillés */
 .experience .container_tl .ul_lt:before {
   content: '';
   width: 1px;
   height: 100%;
   position: absolute;
+  left: 15px;
   border-left: 3px dashed #ff594f;
-  
+  z-index: 1;
 }
+
 .experience .container_tl .ul_lt .li_tl {
   position: relative;
-  margin-left: 30px ;
+  margin-left: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 14px;
   border-radius: 6px;
   width: 250px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);
+  z-index: 2;
 }
+
 .experience .container_tl .ul_lt .li_tl:not(:first-child) {
   margin-top: 60px;
 }
-/* ligne */
+
 .experience .container_tl .ul_lt .li_tl > span {
   width: 4px;
   height: 100%;
   background: #ff594f;
-  left: -30px;
+  left: -26px;
   top: 0;
   position: absolute;
+  z-index: 3;
 }
 
-/* cercle */
-.experience .container_tl .ul_lt .li_tl > span:before, .container .ul_lt .li_tl > span:after {
+.experience .container_tl .ul_lt .li_tl > span:before,
+.experience .container_tl .ul_lt .li_tl > span:after {
   content: '';
   width: 11px;
   height: 11px;
@@ -3105,37 +3172,47 @@ ul {
   left: -4px;
   top: 0;
 }
+
 .experience .container_tl .ul_lt .li_tl span:after {
   top: 100%;
 }
+
 .experience .container_tl .ul_lt .li_tl > div {
-  margin-left: 10px;  
+  margin-left: 10px;
 }
+
 .experience .container_tl div .title, .container div .type {
   font-weight: 600;
   font-size: 16px;
 }
+
 .experience .container_tl div .info {
   font-weight: 300;
 }
+
 .experience .container_tl div > div {
   margin-top: 5px;
 }
+
 .experience .container_tl span.number {
   height: 100%;
 }
+
 .experience .container_tl span.number span {
   position: absolute;
   font-size: 15px;
-  left: -100px;
+  left: -140px;
   font-weight: bold;
 }
+
 .experience .container_tl span.number span:first-child {
   top: 0;
 }
+
 .experience .container_tl span.number span:last-child {
   top: 100%;
 }
+
 
 /*  30. Dark_mode
 --------------------------------------------------------------------------------*/
