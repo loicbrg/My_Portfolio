@@ -2642,7 +2642,15 @@ ul {
 
 .logo{
   width: 120px;
+  height: 120px;
+  /* Taille réelle de l’image conservée, rognage au besoin */
+  object-fit: cover;
+
+  /* Arrondit les quatre coins à 50 % : le carré devient un cercle */
   border-radius: 50%;
+
+  /* (Optionnel) Supprime l’espace blanc sous l’image en mode inline-block */
+  display: block;
 }
 
 
@@ -3288,4 +3296,35 @@ ul {
 }
 .dark .hb_back h2.work__title{
   color: white;
+}
+
+/* Projets */
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.project-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+.project-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+.project-images img {
+  width: 30%;
+  border-radius: 5px;
+  margin-right: 1%;
+}
+.project-images {
+  display: flex;
+  overflow-x: auto;
+}
+.project-link {
+  color: #ff594f;
+  font-weight: bold;
 }
